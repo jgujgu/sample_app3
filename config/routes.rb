@@ -9,6 +9,7 @@ JguPage::Application.routes.draw do
   match '/resume', to: 'static_pages#resume'
   match '/hikes', to: 'users#index'
   match '/contact', to: 'inquiries#new'
+  match '/thank_you', to: 'inquiries#thank_you'
   resources :inquiries, :only => [:new, :create] do
     get 'thank_you', :on => :collection
   end
