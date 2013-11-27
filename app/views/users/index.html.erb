@@ -3,28 +3,8 @@
 
 <% provide(:title, 'Mtns I\'ve Hiked') %>
 
-<h1>Where I've hiked!</h1>
-<center>
-<table>
-  <tr>
-    <th>Nearest City</th>
-
-  </tr>
-
-<% @users.each do |user| %>
-  <tr>
-
-    <td><%= user.title %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-</center>
-<%= link_to 'New User', new_user_path %>
+<h1>Where I've hiked (and snowboarded)!</h1>
+<h2>Please click on a marker to get some details!</h2>
 
 
 <center><div style='width: 800px;'>
