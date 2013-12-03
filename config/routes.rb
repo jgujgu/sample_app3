@@ -2,10 +2,8 @@ JguPage::Application.routes.draw do
 
 
   resources :users
-<<<<<<< HEAD
-=======
+
   root to: 'users#index'
->>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
   match '/new',  to: 'users#new'
   get "users/edit"
   match '/home', to: 'static_pages#new'
