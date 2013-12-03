@@ -50,10 +50,16 @@ GEM
     diff-lcs (1.1.3)
     erubis (2.7.0)
     execjs (2.0.2)
+<<<<<<< HEAD
     ffi (1.9.3)
     ffi (1.9.3-x86-mingw32)
     geocoder (1.1.8)
     gmaps4rails (2.1.1)
+=======
+    ffi (1.9.3-x86-mingw32)
+    geocoder (1.1.8)
+    gmaps4rails (2.1.0)
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
     hike (1.2.3)
     i18n (0.6.5)
     journey (1.0.4)
@@ -67,6 +73,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     multi_json (1.8.2)
+<<<<<<< HEAD
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
@@ -75,6 +82,13 @@ GEM
     pg (0.17.0-x86-mingw32)
     polyglot (0.3.3)
     pony (1.6.1)
+=======
+    nokogiri (1.6.0-x86-mingw32)
+      mini_portile (~> 0.5.0)
+    pg (0.12.2-x86-mingw32)
+    polyglot (0.3.3)
+    pony (1.5.1)
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
       mail (>= 2.0)
     rack (1.4.5)
     rack-cache (1.2)
@@ -130,6 +144,10 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+<<<<<<< HEAD
+=======
+    sqlite3 (1.3.5-x86-mingw32)
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
     thor (0.18.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -144,7 +162,10 @@ GEM
       nokogiri (~> 1.3)
 
 PLATFORMS
+<<<<<<< HEAD
   ruby
+=======
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
   x86-mingw32
 
 DEPENDENCIES
@@ -154,9 +175,17 @@ DEPENDENCIES
   geocoder
   gmaps4rails
   jquery-rails (= 2.0.2)
+<<<<<<< HEAD
   pg
+=======
+  pg (= 0.12.2)
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
   pony
   rails (= 3.2.14)
   rspec-rails (= 2.11.0)
   sass-rails (= 3.2.5)
+<<<<<<< HEAD
+=======
+  sqlite3 (= 1.3.5)
+>>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
   uglifier (= 1.2.3)
