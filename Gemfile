@@ -33,7 +33,6 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
->>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
 gem 'gmaps4rails'
 gem 'geocoder'
 gem 'bootstrap-sass', '2.1'
