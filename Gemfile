@@ -4,11 +4,9 @@ gem 'rails', '3.2.14'
 
 
 group :development, :test do
-<<<<<<< HEAD
- 
-=======
+
   gem 'sqlite3', '1.3.5'
->>>>>>> d91b771614447ff9e134bbb0c63e9d34a763844a
+
   gem 'rspec-rails', '2.11.0'
 end
 
@@ -26,9 +24,8 @@ group :test do
   gem 'capybara', '1.1.2'
 end
 
-<<<<<<< HEAD
 gem 'pg'
-=======
+
 group :production do
   gem 'pg', '0.12.2'
 end
