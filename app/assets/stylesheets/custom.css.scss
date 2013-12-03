@@ -1,5 +1,10 @@
 @import "bootstrap";
-
+#map img { 
+  max-width: none;
+}
+#map label { 
+  width: auto; display:inline; 
+} 
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
