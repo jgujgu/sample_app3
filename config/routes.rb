@@ -3,7 +3,7 @@ JguPage::Application.routes.draw do
 
   resources :users
 
-  match '/', to: 'static_pages#new'
+  match '/', to:'static_pages#new'
   match '/new',  to: 'users#new'
   get "users/edit"
   match '/resume', to: 'static_pages#resume'
